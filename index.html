@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chathuka Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bec76377a7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            
+
+  <!----------------------------------------------Home Section Design--------------------------------------------------> 
+
+
+  <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Chathuka Dilakshana</h1>
+        <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
+        <p>Third-year BSc (Hons) student at SLIIT, specializing in Information Technology. <br>Eager to apply and develop IT skills in a professional environment. Open to diverse roles and collaborations with industry experts.</p>
+    </div>
+  </section>
+            
+        </div>
+    </div>
+    
+
+    <!----------------------------------------------about--------------------------------------------------> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user3.png" alt="about" class="about-img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Chathuka, Undergraduate at SLIIT | BSc (Hons) in Information Technology Specializing in Information Technology
+                        "As a third-year undergraduate at SLIIT, I am actively pursuing my inaugural professional experience. With a keen interest in the field of IT, I am eager to utilize and further develop my skills. Armed with a strong academic foundation, I am passionate about it. Make a meaningful contribution to a dynamic work environment. I am open to exploring different roles and welcome the opportunity to collaborate with industry professionals. I look forward to connecting with you for potential opportunities."</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Developer</span><br>Web App Developer</li>
+                            <li><span>App Developer</span><br>Building Android App</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li>Hotel Reservation System Website using PHP,HTML,CSS,JavaScript.</li>
+                            <li>Event Management System using Java</li>
+                            <li>Develop a mobile game using Android Studio.</li>
+                            <li>our Management System web application using MERN stack</li>
+                            <li>Develop web application using Android Studio.</li>
+                            <li>Develop a mobile game using Android Studio.</li>
+                            <li>Develop a task management application using Android Studio.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>SLIIT</span><br>BSc (Hons) in Information Technology Specializing in Information Technology</li>
+                            <li><span>Britishway English Academy</span><br>Diploma in English </li>
+                            <li><span>Python</span><br>UOM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------------------Services--------------------------------------------------> 
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Social Media Post Designing</h2>
+                    <p>I am a creative artist specializing in crafting attractive graphics for Instagram, LinkedIn, and Facebook using Canva. With a keen eye for design, I ensure your social media presence is eye-catching and professional. Additionally, I excel in designing certificates tailored to your needs. I am dedicated to providing top-notch service on Fiverr and Freelancer, helping you make a memorable impact on your audience.</p>
+                    <a href="https://www.fiverr.com/s/m5m27kb"> <strong>Learn More</strong></a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Designing</h2>
+                    <p>I am a dedicated UI/UX designer with a passion for creating intuitive and visually appealing user interfaces. My expertise lies in transforming complex ideas into simple, user-friendly designs that enhance user experience. Whether you're looking to revamp your website or design a new mobile app, I am here to provide top-notch service on Fiverr and Freelancer. Let me help you create engaging digital experiences that captivate your audience and meet your business goals.
+
+                    </p>
+                    <a href="https://www.fiverr.com/s/m5m27kb"> <strong>Learn More</strong></a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Web/Mobile Application Designing</h2>
+                    <p>As a skilled web and mobile app developer, I specialize in building responsive, high-performance applications tailored to your needs. With a strong focus on functionality and user experience, I ensure your app is not only visually appealing but also efficient and easy to use. Offering my services on Fiverr and Freelancer, I am committed to delivering top-quality solutions that help you achieve your digital goals. Let's bring your vision to life with a robust and scalable app.</p>
+                    <a href="https://www.fiverr.com/s/m5m27kb" style="font-size: 10px;"><strong></style>Learn More</strong></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------------------Portfolio--------------------------------------------------> 
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/mern1.png" alt="">
+                    <div class="layer">
+                        <h2>MERN Stacks</h2>
+                        <p>What is the MERN Stack?</p>
+                        <a href="https://chathukadilakshana.blogspot.com/2024/06/mern-stack.html"><i class="fa-solid fa-book-open-reader"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ecoeats.png" alt="">
+                    <div class="layer">
+                        <h2>Eco Eats</h2>
+                        <p>Figma App Design</p>
+                        <a href="https://www.linkedin.com/posts/chathuka-dilakshana-006315284_ecoeats-healthyeating-sustainability-activity-7213536636767281152-si-t?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/todoapp.png" alt="">
+                    <div class="layer">
+                        <h2>To-Do App</h2>
+                        <p>Smart Note pad app using Kotlin</p>
+                        <a href="https://www.linkedin.com/posts/chathuka-dilakshana-006315284_androiddev-kotlin-crudapp-activity-7206717409410396163-mL9a?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-link"></i></i></a>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <a href="projects.html" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+
+
+ <!----------------------------------------------Contact--------------------------------------------------> 
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>chathukadilakshana33@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0703749261</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100083049440843"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/chathuka_dilakshana/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/chathuka-dilakshana-006315284/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Chathuka CV.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="10"placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <a href="#header" class="up"><i class="fa-solid fa-circle-chevron-up"></i></a>
+    </div>
+    
+
+<!----------------------------------------------Footer--------------------------------------------------> 
+
+     <div class="copyright">
+        <p>&copy; 2024 Chathuka Dilakshana Portfolio. All rights reserved.</p>
+     </div>
+</div>
+
+
+
+<!-----------------------------------------------------------------------------------JavaScript---------------------------------------------------------------------------------------> 
+<!----------------------------------------------Scroll reveal-------------------------------------------------->
+<script>
+    // Initialize ScrollReveal
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '50px',
+        duration: 2000,
+        delay: 100,
+        reset: true
+    });
+
+
+    // Apply ScrollReveal to different sections
+    sr.reveal('.home-content', { origin: 'top' });
+    sr.reveal('.heading', { origin: 'top' });
+    sr.reveal('.container', { origin: 'top' });
+    sr.reveal('.header', { origin: 'top' });
+
+    // Customize reveal effects for other sections
+    sr.reveal('.about-col-1', { origin: 'left' });
+    sr.reveal('.about-col-2', { origin: 'right' });
+    sr.reveal('.services-list div', { origin: 'bottom', interval: 100 });
+    sr.reveal('.work-list .work', { origin: 'bottom', interval: 100 });
+    sr.reveal('.contact-left', { origin: 'left' });
+    sr.reveal('.contact-right', { origin: 'right' });
+
+    // Initialize ScrollReveal
+ScrollReveal().reveal('.home-content, .heading .container, .header', {
+    origin: 'top',
+    distance: '50px',
+    duration: 1000,
+    reset: true,
+    beforeReveal: function(el) {
+        if (el.classList.contains('header')) {
+            el.style.backgroundImage = 'url(images/background.png)';
+        }
+    }
+});
+
+</script>
+    <!----------------------------------------------typedJs--------------------------------------------------> 
+
+
+<script>
+
+const typed = new Typed('.multiple-text',{
+    strings:['Frontend Developed','UI / UX Developer','Android App Developer'],
+    typeSpeed:100,
+    backSpeed:100,
+    backDelay:1000,
+    loop:true
+});
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(event, tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxN00ea08r6_DTVfRaNG9z6wcbIT-qFCjODtJMlRClMVTeQDOnSo5lpZNnnxpAqrnfX/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Thank you for your message. I will get back to you soon."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+<script>
+    // Show or hide the scroll to top button
+window.addEventListener('scroll', function() {
+    const upButton = document.querySelector('.up');
+    if (window.scrollY > 300) { // Show the button after scrolling 300px
+        upButton.style.display = 'block';
+    } else {
+        upButton.style.display = 'none';
+    }
+});
+
+</script>
+
+</body>
+</html>
